@@ -30,11 +30,11 @@ public class Exercicio_1 {
 		ano = ano*365;
 		idade = dia+mes+ano;
 		
-		System.out.flush();
-		
+				
 		System.out.println ("Sua idade em dias é igual a " + idade);
 				
-				
+		scanner.close();
+		
 		}
 
 }
