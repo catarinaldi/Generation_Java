@@ -10,12 +10,24 @@ public class Exercicio_2 {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		int num;
+		int i, num, par = 0, impar = 0;
 		
-		for (num = 0; num >= 10; num++) {
+		
+		for (i = 0; i < 10; i++) {
 			System.out.println("Escreva um número:");
-			
+			num = scanner.nextInt();
+				if (num % 2 == 0) {
+					par++;
+				}
+				if (num % 2 != 0) {
+					impar++;
+				}
 		}
+		
+		System.out.println("Quantidade de números pares: " + par);
+		System.out.println("Quantidade de números ímpares: " + impar);
+		
+		scanner.close();
 		
 	}
 }

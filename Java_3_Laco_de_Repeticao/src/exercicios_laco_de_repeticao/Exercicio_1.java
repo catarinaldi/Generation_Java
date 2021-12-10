@@ -7,7 +7,7 @@ public class Exercicio_1 {
 	 */
 	public static void main(String[] args) throws InterruptedException {
 		
-		double n1, result;
+		int n1, result;
 		
 		for(n1 = 1000; n1 <= 1999; n1++) {
 			result = n1 % 11;
