@@ -3,7 +3,10 @@ package exercicios_laco_de_decisao;
 import java.util.Scanner;
 
 public class Exercicio_1 {
-
+	/*Programa 1 - Maior número
+	 * Autore: catarina
+	 * Data: 09/12/2021
+	 */
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
