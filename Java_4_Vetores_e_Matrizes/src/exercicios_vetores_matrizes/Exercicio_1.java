@@ -3,18 +3,21 @@ package exercicios_vetores_matrizes;
 import java.util.Scanner;
 
 public class Exercicio_1 {
-
+	/*Programa 1 - Vetor
+	 * Autore: catarina
+	 * Data: 13/12/2021
+	 */
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
-		double[] vetor = new double [5];
+		int[] vetor = new int[5];
 		int maior = 0;
 		
 		for (int i = 0; i < vetor.length; i++) {
 			System.out.println("Digite a " + (i+1) + "ª nota: ");
-			vetor[i] = scanner.nextDouble();
+			vetor[i] = scanner.nextInt();
 			if (vetor[i] >= maior) {
-				maior = (int) vetor[i];
+				maior = vetor[i];
 			}
 		}
 		
@@ -24,7 +27,7 @@ public class Exercicio_1 {
 		}
 		System.out.print("\nA maior nota foi: " + maior + "!");
 		
-		
+		scanner.close();
 	}
 
 }
