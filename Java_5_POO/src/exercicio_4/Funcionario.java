@@ -1,7 +1,7 @@
 package exercicio_4;
 
 public class Funcionario {
-	/*Programa 3 - POO
+	/*Programa 4 - POO
 	 * Autore: catarina
 	 * Data: 14/12/2021
 	 */
