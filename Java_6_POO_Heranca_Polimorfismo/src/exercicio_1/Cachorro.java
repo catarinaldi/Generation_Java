@@ -2,9 +2,11 @@ package exercicio_1;
 
 public class Cachorro extends Animal{
 
-	String emitirSom, som;
+	public static void emitirSom() {
+		System.out.print("\nO cachorro faz auauauauuu");
+		}
 	
-	void Correr() {
+	public static void Correr() {
 		System.out.println("\nO cachorro corre!");
 	}
 }

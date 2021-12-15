@@ -12,30 +12,32 @@ public class Main {
 	
 		c1.setNome("Marley");
 		c1.setIdade(12);
-		c1.setSom("auau");
 		
 		System.out.println("Nome: " 	+ 	c1.getNome());
-		System.out.println("Idade: " 	+ 	c1.getIdade());
-		System.out.print  ("Som: " 		+ 	c1.getSom());
+		System.out.print  ("Idade: " 	+ 	c1.getIdade());
+		c1.emitirSom();
 		c1.Correr();
+		
+		System.out.println("");
 		
 		v1.setNome("Brodines");
 		v1.setIdade(3);
-		v1.setSom("brrrrr");
 		
 		System.out.println("Nome: " 	+ 	v1.getNome());
-		System.out.println("Idade: " 	+ 	v1.getIdade());
-		System.out.println("Som: " 		+ 	v1.getSom());
+		System.out.print  ("Idade: " 	+ 	v1.getIdade());
+		v1.emitirSom();
 		v1.Correr();
+		
+		System.out.println("");
 		
 		p1.setNome("Clayton");
 		p1.setIdade(1);
-		p1.setSom(" ? ");
-		p1.Subir();
 		
 		System.out.println("Nome: " 	+ 	p1.getNome());
-		System.out.println("Idade: " 	+ 	p1.getIdade());
-		System.out.println("Som: " 		+ 	p1.getSom());
+		System.out.print  ("Idade: " 	+ 	p1.getIdade());
+		p1.emitirSom();
+		p1.Subir();
+		
 
 	
 	}

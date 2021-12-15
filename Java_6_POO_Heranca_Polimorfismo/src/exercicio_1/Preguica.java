@@ -2,9 +2,11 @@ package exercicio_1;
 
 public class Preguica extends Animal{
 	
-	String emitirSom, som;
+	public static void emitirSom() {
+		System.out.print("\nA preguiça faz ??");
+		}
 	
-	void Subir() {
+	public static void Subir() {
 		System.out.println("\nA preguiça sobe em árvores!");
 		}
 
